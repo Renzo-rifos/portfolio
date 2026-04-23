@@ -1,55 +1,44 @@
-# 🖥️ Personal Portfolio
+# Portfolio — Ezequiel Rifos
 
-A sleek, modern, and responsive portfolio bootstrapped with [create-t3-app](https://create.t3.gg/).
+Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-[Website Preview](https://github.com/wendoj/portfolio/assets/77996774/b73b02d7-0657-41e3-9124-e6d04b17fe93)
+🔗 **[Live Demo](https://portfolio-renzo-rifos.vercel.app)**
 
-[🔗 Link to portfolio](https://wendoj.vercel.app)
+## Stack
 
-All you need to know about me, my projects and skills can be found here. Personalize the portfolio by modifying `src/pages/index.tsx` and `src/styles/globals.css` to emulate your own portfolio. Made some improvements and want to share? Open a pull request.
-For any issues, feel free to report them here.
+- **Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion, Locomotive Scroll
+- **Contact:** EmailJS
+- **Deploy:** Vercel
 
-## 🎉 Features
-- **Responsive Design**: The portfolio is designed to be fully responsive, providing an optimal viewing experience across a wide range of devices from desktops to mobile phones.
-- **Easy Customization**: The portfolio structure is straightforward and well organized, making it easy to customize and showcase your unique set of skills and projects.
-- **Stunning UI/UX Design**: The portfolio boasts a sleek and modern design, using smooth animations to capture the attention of potential employers or clients.
-- **Interactive UI**: Utilizing modern web development techniques, the portfolio offers an interactive user interface that enhances user experience, such as `locomotive-scroll` and `framer-motion`.
+## Features
 
-## 🚀 Getting Started
+- Responsive design across all screen sizes
+- Smooth scroll animations
+- Interactive tech belt with SVG icons
+- Contact form with EmailJS integration
+- Dark theme with custom color palette
 
-### Prerequisites
-To get started with this portfolio, ensure that you have the following installed on your system:
-- Node.js
-- npm
-- git
-
-## 🛠️ Installation
-Follow the steps below to clone and run this project on your local system:
+## Run locally
 
 ```bash
-# Clone the repository
-$ git clone https://github.com/wendoj/developer-portfolio.git
+# Clone the repo
+git clone https://github.com/Renzo-rifos/portfolio.git
+cd portfolio
 
-# Navigate to the project directory
-$ cd developer-portfolio
-
-# Remove current origin repository
-$ git remote remove origin
-```
-
-<br />
-
-Then install the required dependencies:
-```bash
 # Install dependencies
-$ npm install
+pnpm install
 
-# Start the development server:
-$ npm run dev
+# Start dev server
+pnpm dev
 ```
-Now, open your browser and navigate to `http://localhost:3000` to view your portfolio live.
 
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## How do I deploy this?
+## Contact
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- **Email:** renzorifosezequiel20@gmail.com
+- **LinkedIn:** [linkedin.com/in/rifos-ezequiel](https://linkedin.com/in/rifos-ezequiel)
+- **GitHub:** [github.com/Renzo-rifos](https://github.com/Renzo-rifos)
