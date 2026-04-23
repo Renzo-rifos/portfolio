@@ -11,7 +11,7 @@ Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion, Locomotive Scroll
 - **Contact:** EmailJS
-- **Deploy:** Vercel
+- **Deploy:** [ Vercel](https://portfolio-sooty-five-67.vercel.app/)
 
 ## Features
 
