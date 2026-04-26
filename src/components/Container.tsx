@@ -83,7 +83,7 @@ export default function Container(props: ContainerProps) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Ezequiel",
+    title: "Ezequiel Rifos | Frontend Developerl",
     description: `Frontend developer from Argentina. Specializing in React, TypeScript and Tailwind CSS. Available for freelance and remote junior roles.`,
     image: "/assets/logo.webp",
     type: "website",
@@ -115,34 +115,34 @@ export default function Container(props: ContainerProps) {
   return (
     <>
       <Head>
-        <title>{meta.title}</title>
-        <meta name="robots" content="follow, index" />
-        <meta name="theme-color" content="#7B82FE" />
-        <meta content={meta.description} name="description" />
-        <meta
-          property="og:url"
-          content={`https://www.wendoj.codes${router.asPath}`}
-        />
-        <link
-          rel="canonical"
-          href={`https://www.wendoj.codes${router.asPath}`}
-        />
-        <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="WendoJ" />
-        <meta property="og:description" content={meta.description} />
-        <meta property="og:title" content={meta.title} />
-        <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="WendoJ" />
-        <meta name="twitter:title" content={meta.title} />
-        <meta name="twitter:description" content={meta.description} />
-        <meta name="twitter:image" content={meta.image} />
-        <link rel="icon" href="/favicon.ico" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
-      </Head>
+  <title>{meta.title}</title>
+  <meta name="robots" content="follow, index" />
+  <meta name="theme-color" content="#7B82FE" />
+  <meta content={meta.description} name="description" />
+  <meta
+    property="og:url"
+    content={`https://portfolio-sooty-five-67.vercel.app${router.asPath}`}
+  />
+  <link
+    rel="canonical"
+    href={`https://portfolio-sooty-five-67.vercel.app${router.asPath}`}
+  />
+  <meta property="og:type" content={meta.type} />
+  <meta property="og:site_name" content="Ezequiel Rifos" />
+  <meta property="og:description" content={meta.description} />
+  <meta property="og:title" content={meta.title} />
+  <meta property="og:image" content={meta.image} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="Ezequiel Rifos" />
+  <meta name="twitter:title" content={meta.title} />
+  <meta name="twitter:description" content={meta.description} />
+  <meta name="twitter:image" content={meta.image} />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icon-192x192.png" />
+</Head>
       <nav
         className={cn(
           styles.nav,
