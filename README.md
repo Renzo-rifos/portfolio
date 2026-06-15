@@ -2,7 +2,7 @@
 
 Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-🔗 **[Live Demo](https://portfolio-renzo-rifos.vercel.app)**
+🔗 **[Live Demo](https://portfolio-sooty-five-67.vercel.app/)**
 
 ## Stack
 
